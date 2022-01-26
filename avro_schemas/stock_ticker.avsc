@@ -1,0 +1,11 @@
+{
+  “type”: “record”,
+  “name”: “stock.price_change”,
+  “namespace”: “com.udacity”,
+  “fields”: [
+      {“name”: “ticker”, “type”: “string”},
+      {“name”: “prev_price”, “type”: “int”},
+      {“name”: “price”, “type”: “int”},
+      {“name”: “cause”, “type”: [“null”, “string”]}
+  ]
+}
