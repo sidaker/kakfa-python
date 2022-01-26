@@ -6,6 +6,12 @@ import random
 from faker import Faker
 from fastavro import parse_schema, writer
 
+'''
+# QUESTION:
+
+Serialize a python object to AVRO , print and save it in a file.
+
+'''
 
 faker = Faker()
 
@@ -25,7 +31,7 @@ class ClickEvent:
         {
             "type": "record",
             "name": "click_event",
-            "namespace": "com.udacity.lesson3.exercise2",
+            "namespace": "com.sidbommireddy.lesson3.exercise2",
             "fields": [
                 {"name": "email", "type": "string"},
                 {"name": "timestamp", "type": "string"},

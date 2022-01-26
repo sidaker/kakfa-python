@@ -3,7 +3,7 @@ from fastavro import parse_schema, writer
 '''
 Question
 
-How do you parse a manual avro schema? 
+How do you parse a manual avro schema?
 
 '''
 
@@ -11,7 +11,7 @@ schema = parse_schema(
         {
             "type": "record",
             "name": "click_event",
-            "namespace": "com.udacity.lesson3.exercise2",
+            "namespace": "com.sbommireddy.lesson3.exercise",
             "fields": [
                 {"name": "email", "type": "string"},
                 {"name": "timestamp", "type": "string"},
